@@ -1,0 +1,40 @@
+<html>
+    <head>
+        <title>racing game</title>
+        <style>
+     body{          
+    background-color: tomato;
+    background-position: center;
+    background-size: cover;
+    }
+    #myCanvas{
+        background-color: white;
+    }
+    .bold{
+        color: darkred;
+    }
+        </style>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+    </head>
+    <body onload="add()">
+        <center>
+            <h1>The racing game</h1>
+            <h1>Game status : <span id="game_status"></span></h1>
+
+            <canvas height="600"
+            width="800" id="myCanvas"></canvas>
+        
+
+            <h4>
+                <b class="bold">NOTE : </b> IF CARS ARENT VISIBLE PRESS ANY ARROW KEY
+            </h4>
+            
+            </center>
+
+            <script src = "main.js"></script>
+    </body>
+</html>
+
+
+
